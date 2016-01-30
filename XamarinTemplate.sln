@@ -5,8 +5,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinTemplate.Core", "Xam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinTemplate.iOS", "XamarinTemplate.iOS\XamarinTemplate.iOS.csproj", "{539080A0-A765-4510-8ACC-D296D10F6010}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinTemplate.iOS.UITests", "XamarinTemplate.iOS.UITests\XamarinTemplate.iOS.UITests.csproj", "{D90E68A1-23C0-4C86-89EC-F60E9D57A490}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinTemplate.Domain", "XamarinTemplate.Domain\XamarinTemplate.Domain.csproj", "{435845CE-7143-4863-88A6-C67D714AF116}"
 EndProject
 Global
@@ -55,17 +53,5 @@ Global
 		{539080A0-A765-4510-8ACC-D296D10F6010}.Release|iPhone.Build.0 = Release|iPhone
 		{539080A0-A765-4510-8ACC-D296D10F6010}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{539080A0-A765-4510-8ACC-D296D10F6010}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
-		{D90E68A1-23C0-4C86-89EC-F60E9D57A490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D90E68A1-23C0-4C86-89EC-F60E9D57A490}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D90E68A1-23C0-4C86-89EC-F60E9D57A490}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{D90E68A1-23C0-4C86-89EC-F60E9D57A490}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{D90E68A1-23C0-4C86-89EC-F60E9D57A490}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{D90E68A1-23C0-4C86-89EC-F60E9D57A490}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{D90E68A1-23C0-4C86-89EC-F60E9D57A490}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D90E68A1-23C0-4C86-89EC-F60E9D57A490}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D90E68A1-23C0-4C86-89EC-F60E9D57A490}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{D90E68A1-23C0-4C86-89EC-F60E9D57A490}.Release|iPhone.Build.0 = Release|Any CPU
-		{D90E68A1-23C0-4C86-89EC-F60E9D57A490}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{D90E68A1-23C0-4C86-89EC-F60E9D57A490}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
