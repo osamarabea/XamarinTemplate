@@ -4,7 +4,7 @@ using Cirrious.MvvmCross.Droid.Views;
 
 namespace XamarinTemplate.Droid.Views
 {
-	[Activity (Label = "MainView", MainLauncher = true, Icon = "@mipmap/icon")]
+	[Activity (Label = "MainView", MainLauncher = false, Icon = "@mipmap/icon")]
 
     public class MainView : MvxActivity
     {

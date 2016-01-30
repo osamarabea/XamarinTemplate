@@ -1,6 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <resources>
-	<style name="red">
+	<style name="Layout">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="Layout.Root">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+	</style>
+	<style name="Text">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="Text.Standard">
+		<item name="android:textSize">@dimen/Text.Standard</item>
+	</style>
+	<style name="EditText">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="EditText.Standard">
+		<item name="android:textSize">@dimen/Text.Standard</item>
 	</style>
 </resources>
 
