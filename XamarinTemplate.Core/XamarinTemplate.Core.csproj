@@ -49,4 +49,10 @@
       <HintPath>..\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.1\lib\portable-win+net45+wp8+win8+wpa81\Cirrious.MvvmCross.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XamarinTemplate.Domain\XamarinTemplate.Domain.csproj">
+      <Project>{435845CE-7143-4863-88A6-C67D714AF116}</Project>
+      <Name>XamarinTemplate.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
