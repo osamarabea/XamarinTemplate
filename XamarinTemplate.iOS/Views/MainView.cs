@@ -20,7 +20,7 @@ namespace XamarinTemplate.iOS
 			base.ViewDidLoad ();
 
 			var bindings = this.CreateBindingSet<MainView, MainViewModel> (); 
-			bindings.Bind(ViewModelLabel).For(label => label.Text).To(vm => vm.Hello); 
+			bindings.Bind(ViewModelLabel).For(label => label.Text).To(vm => vm.Title); 
 			bindings.Apply();
 
 		}

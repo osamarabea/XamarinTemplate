@@ -4,11 +4,11 @@ namespace XamarinTemplate.Core.ViewModels
 {
     public class MainViewModel : MvxViewModel
     {
-		private string _hello = "Hello MvvmCross";
-        public string Hello
+		private string _title = "Hello MvvmCross";
+        public string Title
 		{ 
-			get { return _hello; }
-			set { _hello = value; RaisePropertyChanged(() => Hello); }
+			get { return _title; }
+			set { _title = value; RaisePropertyChanged(() => Title); }
 		}
     }
 }

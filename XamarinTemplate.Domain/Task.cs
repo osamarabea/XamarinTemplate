@@ -2,15 +2,10 @@
 
 namespace XamarinTemplate.Domain
 {
-	public class TodoItem
+	public class Task
 	{
-		public TodoItem ()
-		{
-		}
-
 		public int Id { get; set; }
 		public string Text { get; set; }
-
 	}
 }
 
