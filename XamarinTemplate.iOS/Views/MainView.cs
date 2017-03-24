@@ -1,11 +1,11 @@
 ﻿using System;
 
 using UIKit;
-using Cirrious.MvvmCross.Touch.Views;
-using Cirrious.MvvmCross.Binding.BindingContext;
 using XamarinTemplate.Core.ViewModels;
 using System.Linq.Expressions;
 using Accelerate;
+using MvvmCross.iOS.Views;
+using MvvmCross.Binding.BindingContext;
 
 namespace XamarinTemplate.iOS
 {

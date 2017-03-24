@@ -1,8 +1,8 @@
 ﻿using Foundation;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.iOS.Platform;
+using MvvmCross.Platform;
 using UIKit;
-using Cirrious.MvvmCross.Touch.Platform;
-using Cirrious.CrossCore;
-using Cirrious.MvvmCross.ViewModels;
 
 namespace XamarinTemplate.iOS
 {

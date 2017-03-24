@@ -1,8 +1,8 @@
-using Cirrious.CrossCore.IoC;
+using MvvmCross.Platform.IoC;
 
-namespace XamarinTemplate.Core
+namespace XamarinTemplate
 {
-    public class App : Cirrious.MvvmCross.ViewModels.MvxApplication
+    public class App : MvvmCross.Core.ViewModels.MvxApplication
     {
         public override void Initialize()
         {
@@ -10,8 +10,8 @@ namespace XamarinTemplate.Core
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
-				
-            RegisterAppStart<ViewModels.MainViewModel>();
+
+            RegisterAppStart<ViewModels.FirstViewModel>();
         }
     }
 }

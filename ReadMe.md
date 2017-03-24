@@ -1,0 +1,1 @@
+A Xamarin MvvmCross Solution Template
