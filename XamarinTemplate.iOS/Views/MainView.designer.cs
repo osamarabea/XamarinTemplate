@@ -11,19 +11,19 @@ using UIKit;
 
 namespace XamarinTemplate.iOS
 {
-	[Register ("MainView")]
-	partial class MainView
-	{
-		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel ViewModelLabel { get; set; }
+    [Register ("MainView")]
+    partial class MainView
+    {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel ViewModelLabel { get; set; }
 
-		void ReleaseDesignerOutlets ()
-		{
-			if (ViewModelLabel != null) {
-				ViewModelLabel.Dispose ();
-				ViewModelLabel = null;
-			}
-		}
-	}
+        void ReleaseDesignerOutlets ()
+        {
+            if (ViewModelLabel != null) {
+                ViewModelLabel.Dispose ();
+                ViewModelLabel = null;
+            }
+        }
+    }
 }
